@@ -27,11 +27,9 @@ git add .
 
 
 --Fetching changes from a remote repository
- git remote  --> origin
-
-cd in your directory 
-and this command line 
-
+cd in your directory
+git remote  --> origin 
+git fetch origin
 git merge origin/main  -> git all changes from github to local 
 
 
