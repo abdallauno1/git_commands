@@ -30,6 +30,8 @@ git fetch origin
 git merge origin/main  -> git all changes from github to local 
 
 
+--create a new branch 
+git switch -c namebranch
 
 --To have it as a git alias, use:
 
@@ -39,7 +41,7 @@ and commit all files, including new files, with a message with:
 git coa "A bunch of horrible changes"
 
 
-…or create a new repository on the command line
+â€¦or create a new repository on the command line
 
 echo "# NTT-DATA--DAL-GROUP-SM1-TOUCH" >> README.md
 git init
@@ -50,7 +52,7 @@ git remote add origin https://github.com/abdallauno1/NTT-DATA--DAL-GROUP-SM1-TOU
 git push -u origin main
 
 
-…or push an existing repository from the command line
+â€¦or push an existing repository from the command line
 git remote add origin https://github.com/abdallauno1/NTT-DATA--DAL-GROUP-SM1-TOUCH.git
 git branch -M main
 git push -u origin main
