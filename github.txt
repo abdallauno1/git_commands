@@ -1,0 +1,61 @@
+git status --> file created or file modified in red 
+git add fileName --> chengae color from red to green 
+git commit fileName 
+git commit -m "message" --> file ready to be pushed 
+git push origine main:main   
+
+--can commit the file and commit add msg to in the same command line 
+git commit salesExecutionEngine.js -m "salesExe"
+
+--can commit all folder or Files 
+git add -A && git commit -m "Your Message"
+
+--download specific file form your GitHub to your directory 
+cd "into your directory if created" 
+Navigate to your file on github (or your git host)
+Click on the Raw tab.
+wget https://raw.githubusercontent.com/abdallauno1/python/master/calc_tax.py
+
+
+
+
+--commit multi files 
+git commit -m "your msg"
+
+-- adding multi file 
+git add .
+
+
+--Fetching changes from a remote repository
+ git remote  --> origin
+
+cd in your directory 
+and this command line 
+
+git merge origin/main  -> git all changes from github to local 
+
+
+
+--To have it as a git alias, use:
+
+git config --global alias.coa "!git add -A && git commit -m"
+and commit all files, including new files, with a message with:
+
+git coa "A bunch of horrible changes"
+
+
+…or create a new repository on the command line
+
+echo "# NTT-DATA--DAL-GROUP-SM1-TOUCH" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abdallauno1/NTT-DATA--DAL-GROUP-SM1-TOUCH.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/abdallauno1/NTT-DATA--DAL-GROUP-SM1-TOUCH.git
+git branch -M main
+git push -u origin main
