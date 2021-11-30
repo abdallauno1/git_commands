@@ -16,9 +16,6 @@ Navigate to your file on github (or your git host)
 Click on the Raw tab.
 wget https://raw.githubusercontent.com/abdallauno1/python/master/calc_tax.py
 
-
-
-
 --commit multi files 
 git commit -m "your msg"
 
